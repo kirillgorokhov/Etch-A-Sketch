@@ -1,0 +1,16 @@
+#grid {
+    display: flex;
+    width: 500px;
+    height: 500px;
+}
+
+.column {
+    flex: 1;
+}
+
+.row {
+    margin: 1px;
+    background: grey;
+    text-align: center;
+    min-height: 30px;
+}
